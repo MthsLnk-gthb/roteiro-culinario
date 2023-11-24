@@ -1,0 +1,61 @@
+:root{
+    --white-text: #FFECD1;
+    --brown-one: #78290F;
+    --transparent-yellow: #f7800054;
+    --heavy-yellow: #F77F00;
+    --light-yellow: #ffe988;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.nav-bar{
+    margin: 5vh auto;
+}
+
+.header-btn{
+    color: var(--white-text);
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: none;
+    margin: auto 5vw;
+}
+
+.header-btn:hover{
+    color: var(--light-yellow);
+    transition: .5s;
+}:not(:hover){
+    transition: .4s;
+}
+
+.introducao{
+    margin: 20vh auto 15vh ;
+    text-align: center;
+    width: 85vw;
+}
+
+.introducao>h1{
+    color: var(--white-text);
+    font-size: 3.3rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.introducao>p{
+    margin: 5vh auto;
+    color: var(--white-text);
+    font-size: 1.3rem;
+}
+
+
+@media (max-width:767px) {
+    .header-btn{
+        width: 95px;
+        height: 40px;
+        margin: auto 2vw;
+        font-size: 1.15rem;
+    }
+}

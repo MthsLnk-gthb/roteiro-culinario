@@ -1,0 +1,109 @@
+:root {
+  --white-text: #ffecd1;
+  --brown-one: #78290f;
+  --heavy-brown: #4e1907;
+  --transparent-yellow: #f7800054;
+  --heavy-yellow: #f77f00;
+  --black-one: #151515;
+  --light-blue: #0c5ac0;
+}
+
+.fundo-card {
+  height: 70vh;
+  width: 300px;
+  min-width: 200px;
+  background-color: var(--brown-one);
+  margin: 5vh auto;
+}
+
+.caixa-do-conteudo {
+  background-image: radial-gradient( var(--heavy-brown), var(--black-one) 95%);
+  width: 98%;
+  height: 65%;
+  text-align: center;
+  margin: -.2vh auto;
+}
+
+.fundo-card>img{
+  position: relative;
+  object-fit: cover;
+  height: 23vh;
+  width: 100%;
+}
+
+.nome-do-local,
+.endereco-do-local,
+.horario-de-funcionamento {
+  color: var(--white-text);
+}
+
+.caixa-do-conteudo> h1, h2, h3, h4, h5{
+padding-top: 2.5vh;
+}
+
+.nome-do-local{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.endereco-do-local{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.endereco-do-local:hover{
+  cursor: pointer;
+}
+
+.dias-de-funcionamento{
+    font-size: 1.2rem;
+}
+
+.horario-de-funcionamento{
+    text-decoration: underline;
+}
+
+.bairro{
+    color: var(--heavy-yellow);
+}
+
+.funcionamento-feriados{
+    font-size: 1.1rem;
+}
+
+
+.dias-de-funcionamento,
+.funcionamento-feriados {
+  color: var(--heavy-yellow);
+}
+
+
+@media (max-width: 767px) {
+.fundo-card {
+  height: 55vh;
+  width: 220px;
+  margin: 5vh auto;
+}
+
+.caixa-do-conteudo {
+  background-color: var(--black-one);
+  width: 95%;
+  height: 55%;
+  text-align: center;
+  margin: .5vh auto;
+}
+
+.caixa-do-conteudo> h1, h2, h3, h4, h5{
+padding-top: .8vh;
+}
+
+.nome-do-local{
+    font-size: 1.3rem;
+}
+.endereco-do-local{
+    font-size: 1.1rem;
+}
+.avaliacao-do-local{
+    font-size: 1rem;
+}
+}

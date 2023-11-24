@@ -1,0 +1,20 @@
+:root {
+  --white-text: #ffecd1;
+  --brown-one: #78290f;
+  --heavy-brown: #4e1907;
+  --transparent-yellow: #f7800054;
+  --heavy-yellow: #f77f00;
+  --black-one: #151515;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(to bottom, var(--black-one) 30%, var(--heavy-brown));
+  background-attachment: fixed;
+}

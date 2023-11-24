@@ -1,0 +1,19 @@
+:root {
+  --white-text: #ffecd1;
+  --brown-one: #78290f;
+  --heavy-brown: #4e1907;
+  --transparent-yellow: #f7800054;
+  --heavy-yellow: #f77f00;
+  --black-one: #151515;
+}
+
+
+.nome-do-blog{
+    color: var(--heavy-yellow);
+    font-size: 1.8rem;
+}
+
+.texto{
+    color: var(--white-text);
+    font-size: 1.2rem;
+}

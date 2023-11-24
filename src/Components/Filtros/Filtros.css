@@ -1,0 +1,47 @@
+:root {
+  --white-text: #ffecd1;
+  --brown-one: #78290f;
+  --heavy-brown: #4e1907;
+  --transparent-yellow: #f7800054;
+  --heavy-yellow: #f77f00;
+  --black-one: #151515;
+}
+
+.box-dos-filtros{
+    width: 100%;
+    text-align: center;
+    margin: 5vh auto;
+}
+
+.section-dos-filtros>h2{
+    color: var(--white-text);
+    font-size: 1.7rem;
+    margin-bottom: 2vh;
+}
+
+select{
+    text-align: center;
+    margin: auto 2vw;
+    width: 10vw;
+    min-width: 120px;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: none;
+    color: var(--heavy-yellow);
+    border-bottom: 1px solid var(--heavy-yellow);
+}
+
+button{
+    background-color: red;
+    color: var(--white-text);
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+option{
+    background-color: transparent;
+    color: var(--heavy-brown);
+    font-size: 1.4rem;
+}

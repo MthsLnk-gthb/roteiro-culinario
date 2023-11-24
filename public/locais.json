@@ -1,0 +1,69 @@
+[
+  {
+    "infoComum": {
+      "tipo": "Cafeteria"
+    },
+    "estabelecimentos": [
+      {
+        "imagem": "https://img.freepik.com/psd-gratuitas/maquete-de-uma-loja-de-cafe_53876-65827.jpg?w=2000",
+        "nome": "Coffee House",
+        "endereco": "Rua Santo Amaro, 941",
+        "bairro": "Santo Amaro",
+        "diasFuncionamento": "Seg-Sab",
+        "horarioFuncionamento": "07:00-18:00",
+        "feriados": "Não abre em feriados"
+      },
+      {
+        "imagem": "https://images.adsttc.com/media/images/61a9/592b/e4df/6101/69c8/6fa2/newsletter/img-4683.jpg?1638488378",
+        "nome": "Café Perez",
+        "endereco": "Rua Umbigo, 23",
+        "bairro": "Santa Felicidade",
+        "diasFuncionamento": "Seg-Sex",
+        "horarioFuncionamento": "07:00-18:00",
+        "feriados": "Abre em feriados"
+      }
+    ]
+
+
+  },
+
+
+  {
+    "infoComum": {
+      "tipo": "Bar"
+    },
+    "estabelecimentos": [
+      {
+        "imagem": "https://www.dombar.com.br/cms/uploads/dom-bar-home-slide-2.jpg",
+        "nome": "Bar do José",
+        "endereco": "Rua Joana Alves, 121",
+        "bairro": "Batel",
+        "diasFuncionamento": "Seg-Sab",
+        "horarioFuncionamento": "12:00-00:00",
+        "feriados": "Abre em feriados"
+      }
+    ]
+  },
+
+
+
+  {
+    "infoComum": {
+      "tipo": "Confeitaria"
+    },
+    "estabelecimentos": [
+      {
+        "imagem": "https://foodsafetybrazil.org/wp-content/uploads/2019/10/confeitaria.jpeg",
+        "nome": "Confeitaria Food Safety",
+        "endereco": "R. Alm. Gonçalves, 1255 - Rebouças, Curitiba - PR, 80230-060",
+        "bairro": "Bairro Alto",
+        "diasFuncionamento": "Seg-Sex",
+        "horarioFuncionamento": "07:30-17:00",
+        "feriados": "Nâo abre em feriados"
+      }
+    ]
+  }
+
+
+
+]
